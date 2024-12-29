@@ -431,9 +431,8 @@
     <!-- Peru operator-->
     <EccEntry Ecc="112" Category="0" Condition="1" Plmn="716 FFF"/>
     <EccEntry Ecc="911" Category="0" Condition="1" Plmn="716 FFF"/>
-    <EccEntry Ecc="105" Category="0" Condition="3" Plmn="716 06"/>
-    <EccEntry Ecc="105" Category="0" Condition="3" Plmn="716 10"/>
-    <EccEntry Ecc="000" Category="0" Condition="0" Plmn="716 17"/>
+    <EccEntry Ecc="105" Category="0" Condition="1" Plmn="716 06"/>
+    <EccEntry Ecc="105" Category="0" Condition="1" Plmn="716 10"/>
 
     <EccEntry Ecc="999" Category="0" Condition="1" Plmn="234 FFF"/>
     <EccEntry Ecc="112" Category="0" Condition="1" Plmn="234 FFF"/>
@@ -476,10 +475,17 @@
 
     <EccEntry Ecc="911" Category="0" Condition="1" Plmn="420 FFF"/>
     <EccEntry Ecc="112" Category="0" Condition="1" Plmn="420 FFF"/>
-    <EccEntry Ecc="999" Category="0" Condition="1" Plmn="420 FFF"/>
-    <EccEntry Ecc="998" Category="0" Condition="1" Plmn="420 FFF"/>
-    <EccEntry Ecc="997" Category="0" Condition="1" Plmn="420 FFF"/>
-    <EccEntry Ecc="993" Category="0" Condition="1" Plmn="420 FFF"/>
+    <EccEntry Ecc="999" Category="0" Condition="1" Plmn="420 01"/>
+    <EccEntry Ecc="998" Category="0" Condition="1" Plmn="420 01"/>
+    <EccEntry Ecc="997" Category="0" Condition="1" Plmn="420 01"/>
+    <EccEntry Ecc="996" Category="0" Condition="1" Plmn="420 01"/>
+    <EccEntry Ecc="994" Category="0" Condition="1" Plmn="420 01"/>
+    <EccEntry Ecc="999" Category="0" Condition="1" Plmn="420 03"/>
+    <EccEntry Ecc="998" Category="0" Condition="1" Plmn="420 03"/>
+    <EccEntry Ecc="997" Category="0" Condition="1" Plmn="420 03"/>
+    <EccEntry Ecc="996" Category="0" Condition="1" Plmn="420 03"/>
+    <EccEntry Ecc="994" Category="0" Condition="1" Plmn="420 03"/>
+
 
     <!-- Add for Oman operator -->
     <EccEntry Ecc="999" Category="0" Condition="1" Plmn="422 FFF"/>
@@ -741,7 +747,6 @@
 
     <!-- Add for Pakistan operator -->
     <EccEntry Ecc="112" Category="0" Condition="1" Plmn="238 FFF"/>
-    <EccEntry Ecc="113" Category="2" Condition="1" Plmn="238 FFF"/>
     <!-- Add for QA operator -->
     <EccEntry Ecc="999" Category="0" Condition="1" Plmn="427 FFF"/>
     <EccEntry Ecc="135" Category="0" Condition="1" Plmn="427 FFF"/>
