@@ -378,7 +378,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/earth/proprietary/vendor/thh/ta/isee_model.json:$(TARGET_COPY_OUT_VENDOR)/thh/ta/isee_model.json
 
 PRODUCT_PACKAGES += \
-    libfmjni \
     arm.graphics-V1-ndk_platform \
     android.hardware.bluetooth@1.1-impl-mediatek \
     android.hardware.thermal@2.0-impl \
