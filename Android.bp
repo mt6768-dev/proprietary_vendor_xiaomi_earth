@@ -14893,7 +14893,7 @@ cc_prebuilt_library_shared {
                 "proprietary/system_ext/lib64/libsink.so",
             ],
             shared_libs: [
-                "libshim_sink",
+                "libaudioclient_shim",
                 "libbinder",
                 "libcutils",
                 "libgui",
