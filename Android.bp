@@ -14675,7 +14675,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
     system_ext_specific: true,
 }
@@ -14898,7 +14897,6 @@ cc_prebuilt_library_shared {
                 "proprietary/system_ext/lib64/libsink-mtk.so",
             ],
             shared_libs: [
-                "libaudioclient_shim",
                 "libbinder",
                 "libcutils",
                 "libgui",
@@ -14937,7 +14935,6 @@ cc_prebuilt_library_shared {
                 "proprietary/system_ext/lib64/libsource.so",
             ],
             shared_libs: [
-                "libui_shim",
                 "libbinder",
                 "libcutils",
                 "libgui",
