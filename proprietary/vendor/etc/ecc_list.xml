@@ -433,6 +433,7 @@
     <EccEntry Ecc="911" Category="0" Condition="1" Plmn="716 FFF"/>
     <EccEntry Ecc="105" Category="0" Condition="1" Plmn="716 06"/>
     <EccEntry Ecc="105" Category="0" Condition="1" Plmn="716 10"/>
+    <EccEntry Ecc="105" Category="0" Condition="1" Plmn="716 17"/>
 
     <EccEntry Ecc="999" Category="0" Condition="1" Plmn="234 FFF"/>
     <EccEntry Ecc="112" Category="0" Condition="1" Plmn="234 FFF"/>
@@ -760,6 +761,5 @@
     <EccEntry Ecc="999" Category="0" Condition="1" Plmn = "639 FFF"/>
 
     <!-- Add for slovenia-->
-    <EccEntry Ecc="113" Category="0" Condition="1" Plmn = "293 40" />
     <EccEntry Ecc="113" Category="0" Condition="2" Plmn = "293 70" />
 </EccTable>
