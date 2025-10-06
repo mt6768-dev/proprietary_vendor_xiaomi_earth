@@ -14659,6 +14659,7 @@ cc_prebuilt_library_shared {
                 "libstagefright_foundation",
                 "libui",
                 "libutils",
+                "libsink-mtk",
                 "libsource",
                 "libvcodec_cap",
                 "libimsma_rtp",
@@ -14886,7 +14887,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libsink",
+    name: "libsink-mtk",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -14894,7 +14895,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/system_ext/lib64/libsink.so",
+                "proprietary/system_ext/lib64/libsink-mtk.so",
             ],
             shared_libs: [
                 "libaudioclient_shim",
