@@ -1896,6 +1896,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/hw/audio.primary.mt6768.so",
             ],
             shared_libs: [
+                "libstagefright_foundation-v33",
                 "libhidlbase",
                 "vendor.mediatek.hardware.mtkpower@1.0",
                 "liblog",
