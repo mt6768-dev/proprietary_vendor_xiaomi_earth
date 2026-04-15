@@ -421,7 +421,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.nvram@1.0 \
     vendor.mediatek.hardware.nvram@1.1 \
     audio.primary.mt6768 \
-    audio.r_submix.mt6768 \
     libHEVCdec_sa.ca7.android \
     libMtkSpeechEnh \
     lib_iir \
