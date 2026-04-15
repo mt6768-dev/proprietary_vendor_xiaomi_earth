@@ -916,3 +916,13 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libdpframework_so \
     vendor_lib64_libmtk_drvb_so \
     vendor_lib64_libpq_prot_so
+
+PRODUCT_BOOT_JARS += \
+    mediatek-common \
+    mediatek-framework \
+    mediatek-ims-base \
+    mediatek-ims-common \
+    mediatek-ims-extension-plugin \
+    mediatek-telecom-common \
+    mediatek-telephony-base \
+    mediatek-telephony-common
