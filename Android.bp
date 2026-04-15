@@ -15340,6 +15340,18 @@ android_app_import {
     system_ext_specific: true,
 }
 
+android_app_import {
+    name: "MtkGbaService",
+    owner: "xiaomi",
+    apk: "proprietary/system_ext/priv-app/MtkGbaService/MtkGbaService.apk",
+    certificate: "platform",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    system_ext_specific: true,
+}
+
 dex_import {
     name: "mediatek-ims-base",
     owner: "xiaomi",

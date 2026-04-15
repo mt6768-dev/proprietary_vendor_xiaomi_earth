@@ -848,6 +848,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.videotelephony-V1-ndk \
     vendor.mediatek.hardware.videotelephony@1.0 \
     ImsService \
+    MtkGbaService \
     mediatek-ims-base \
     mediatek-ims-common \
     mediatek-ims-extension-plugin \
