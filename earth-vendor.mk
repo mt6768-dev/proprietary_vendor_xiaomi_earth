@@ -595,14 +595,20 @@ PRODUCT_PACKAGES += \
     libcares_naptr \
     libcarrierconfig \
     libccci_util \
+    libcodec2_hidl@1.0-v31 \
+    libcodec2_hidl@1.1-v31 \
+    libcodec2_hidl@1.2-v31 \
+    libcodec2_hidl_plugin-v31 \
     libcodec2_mtk_c2store \
     libcodec2_mtk_vdec \
     libcodec2_mtk_venc \
+    libcodec2_soft_common-v31 \
     libcodec2_soft_mtk_alacdec \
     libcodec2_soft_mtk_apedec \
     libcodec2_soft_mtk_imaadpcmdec \
     libcodec2_soft_mtk_mp3dec \
     libcodec2_soft_mtk_msadpcmdec \
+    libcodec2_vndk-v31 \
     libcodec2_vpp_qt_plugin \
     libcodec2_vpp_rs_plugin \
     libcomposer_ext \
@@ -738,7 +744,9 @@ PRODUCT_PACKAGES += \
     librilfusion \
     librpc \
     libsensor_custom \
+    libsfplugin_ccodec_utils-v31 \
     libsl_fp_impl \
+    libstagefright_bufferqueue_helper-v31 \
     libstereoinfoaccessor_vsdof \
     libstorage_otp \
     libsysenv \
