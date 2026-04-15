@@ -15341,22 +15341,6 @@ android_app_import {
 }
 
 dex_import {
-    name: "mediatek-common",
-    owner: "xiaomi",
-    jars: [
-        "proprietary/system/framework/mediatek-common.jar",
-    ],
-}
-
-dex_import {
-    name: "mediatek-framework",
-    owner: "xiaomi",
-    jars: [
-        "proprietary/system/framework/mediatek-framework.jar",
-    ],
-}
-
-dex_import {
     name: "mediatek-ims-base",
     owner: "xiaomi",
     jars: [
