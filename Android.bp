@@ -160,53 +160,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libaedv",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libaedv.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libbase",
-                "libunwindstack",
-                "libselinux",
-                "liblog",
-                "libz",
-                "libc",
-                "libdl",
-                "libm",
-                "libc++",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libaedv.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libbase",
-                "libunwindstack",
-                "libselinux",
-                "liblog",
-                "libz",
-                "libc",
-                "libdl",
-                "libm",
-                "libc++",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libbluetooth_audio_session_mediatek",
     owner: "xiaomi",
     strip: {
@@ -723,47 +676,6 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libjpeg-alpha-oal_vendor",
                 "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libladder",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libladder.so",
-            ],
-            shared_libs: [
-                "libunwindstack",
-                "liblog",
-                "libbase",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libladder.so",
-            ],
-            shared_libs: [
-                "libunwindstack",
-                "liblog",
-                "libbase",
                 "libc++",
                 "libc",
                 "libm",

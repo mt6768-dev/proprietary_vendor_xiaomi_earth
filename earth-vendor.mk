@@ -380,7 +380,6 @@ PRODUCT_PACKAGES += \
     arm.graphics-V1-ndk_platform \
     vendor.mediatek.hardware.bluetooth.audio@2.2-impl \
     libJpgEncPipe \
-    libaedv \
     libbluetooth_audio_session_mediatek \
     libbluetooth_mtk \
     libbluetooth_mtk_pure \
@@ -394,7 +393,6 @@ PRODUCT_PACKAGES += \
     libion_ulit \
     libjpeg-alpha-oal_vendor \
     libjpeg-alpha_vendor \
-    libladder \
     libmtkcutils \
     libmtkproperty \
     libmtkrillog \
