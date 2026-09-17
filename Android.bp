@@ -15296,22 +15296,6 @@ dex_import {
 }
 
 dex_import {
-    name: "mediatek-ims-common",
-    owner: "xiaomi",
-    jars: [
-        "proprietary/system/framework/mediatek-ims-common.jar",
-    ],
-}
-
-dex_import {
-    name: "mediatek-telecom-common",
-    owner: "xiaomi",
-    jars: [
-        "proprietary/system/framework/mediatek-telecom-common.jar",
-    ],
-}
-
-dex_import {
     name: "mediatek-telephony-base",
     owner: "xiaomi",
     jars: [
