@@ -652,7 +652,7 @@ PRODUCT_PACKAGES += \
     libmiphone_preview_bokeh \
     libmml \
     libmnetlink_v104 \
-    libmnl \
+    libmnl_mtk \
     libmp3dec_mtk \
     libmpbase \
     libmsnr \
