@@ -293,6 +293,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/earth/proprietary/vendor/etc/init/init.wlan_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wlan_drv.rc \
     vendor/xiaomi/earth/proprietary/vendor/etc/init/init.wmt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wmt_drv.rc \
     vendor/xiaomi/earth/proprietary/vendor/etc/init/ipsec_mon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipsec_mon.rc \
+    vendor/xiaomi/earth/proprietary/vendor/etc/init/lbs_hidl_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lbs_hidl_service.rc \
     vendor/xiaomi/earth/proprietary/vendor/etc/init/microtrust.bp_kmsetkey_ca.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/microtrust.bp_kmsetkey_ca.rc \
     vendor/xiaomi/earth/proprietary/vendor/etc/init/microtrust.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/microtrust.rc \
     vendor/xiaomi/earth/proprietary/vendor/etc/init/mtk_agpsd_p.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtk_agpsd_p.rc \
@@ -498,6 +499,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.nvram@1.1-impl \
     vendor.mediatek.hardware.pq@2.15-impl \
     vendor.mediatek.hardware.videotelephony@1.0-impl \
+    lbs_hidl_service-impl \
     lib3a.ae.core \
     lib3a.ae \
     lib3a.af.core \
@@ -846,6 +848,7 @@ PRODUCT_PACKAGES += \
     android.hardware.usb@1.2-service-mediatekv2.xml \
     gnss-mtk.xml \
     gnss@2.1-service.xml \
+    lbs_hidl_service@1.0.xml \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
     manifest_media_c2_V1_2_default.xml \
     vendor.silead.hardware.fingerprintext@1.0-service.xml \
@@ -873,6 +876,7 @@ PRODUCT_PACKAGES += \
     vendor.silead.hardware.fingerprintext@1.0-service \
     vtservice_hidl \
     ipsec_mon \
+    lbs_hidl_service \
     mi_thermald \
     mnld \
     mtk_agpsd \
